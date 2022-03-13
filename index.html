@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Treasure Hunt Game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hubballi&family=Roboto+Mono:ital@1&display=swap" rel="stylesheet">
+  </head>
+    <body>
+      <h1>Play Treasure Hunt Games</h1>
+      <h2>Play To Win</h2>
+      <h3>Game Rules</h3>
+        <ul>
+          <li>Click the boxes to reveal what's on the map</li>
+          <li>If you click on the bomb, you lose</li>
+          <li>If you click on the treasure, you win</li>
+        </ul>
+        <img src="https://publicdomainvectors.org/photos/laurent-drapeau-pirate.png" width="300px" />
+        <br/>
+        <br/>
+        <br/>
+
+
+        <table border=3 width="600px">
+          <tr>
+            <td id="treasure" onclick="treasureHider('treasure')">?</td>
+            <td id="bomb" onclick="treasureHider('bomb')">?</td>
+            <td id="bomb" onclick="treasureHider('bomb')">?</td>
+          </tr>
+          <tr>
+            <td>?</td>
+            <td>?</td>
+            <td>?</td>
+          </tr>
+          <tr>
+            <td>?</td>
+            <td>?</td>
+            <td>?</td>
+          </tr>
+        </table>
+    </body>
+    <footer> 
+      <a href="https://screenrant.com/best-pirate-video-games-ever/" target="_blank">More cool games</a>
+    </footer>
+  <script type=“text/javascript” src=“treasure.js”></script>
+</html>
