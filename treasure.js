@@ -9,3 +9,4 @@ const magic8 = () => {
   } else {
     return "Ooops, something went wrong!"
   }
+}
